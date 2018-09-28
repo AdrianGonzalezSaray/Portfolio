@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
-    <link rel="stylesheet" href="Styles/style.css">
   </head>
   <body>
      <style>
@@ -19,20 +18,61 @@
       li {
         color: blue;
       }
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+      }
+    li {
+      float: left;
+    }
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+li a:hover:not(.active) {
+  background-color: #11;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
     </style>
-    <h1 style="color: blue;background-color: yellow;border: 1px solid black;">Hello!</h1>
-    <h1>Owl you doing today?</h1>
-    <p style="color:red;"><b>Hello. </b>This is my first CSS example</p>
-    <img src="Images/wl.jpg">
-    <p>Look at my favorite page(linked below).</p>
-    <a href="https://www.coolmathgames.com/" title="Cool games of math" target="_blank">click on this 100% virus free link</a>
-    <p>Here are some other websites I made:</p>
+    <h1 style="color: blue;background-color: yellow;border: 1px solid black;">
+      Hello!
+    </h1>
+    <h1>
+      Welcome to the Party!
+    </h1>
+    <img src="Images/party.jpg"
+         width="420">
+    <p style="color:red;">
+      I laid out some snacks for you.
+    </p>
+    <img src="Images/snack.jpg">
+    <p>
+      Well now that you're here, check out my favorite page.
+    </p>
+    <a href="https://www.coolmathgames.com/" title="Cool games of math" target="_blank">
+      click on this 100% virus free link to my favorite website
+    </a>
+    <p>
+      Here are some other websites that you should check out because I made them:
+    </p>
     <ul>
       <li>
         <a href="https://preview.c9users.io/adriangonzalezsaray/myapcspportfolio/index.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io"> Home</a>
       </li>
       <li>
-        Best Webpage on the web: <a href="https://preview.c9users.io/adriangonzalezsaray/myapcspportfolio/AboutMe.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io">My About me</a>
+        <a href="https://preview.c9users.io/adriangonzalezsaray/myapcspportfolio/AboutMe.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io">My About me</a>
       </li>
 
       <li>
